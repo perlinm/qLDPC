@@ -11,8 +11,7 @@ pip install qldpc
 To install from source:
 ```
 git clone https://github.com/perlinm/qLDPC.git
-cd qLDPC
-pip install -e .
+pip install -e qLDPC
 ```
 
 ## Features
