@@ -31,7 +31,7 @@ Notable features include:
 
 ## Questions and issues
 
-If this project gains interest and traction, we'll add a documentation webpage to help users get started quickly.  In the meantime, you can explore the extensive documentation and explanations available in the source code.  `qldpc/codes_test.py` in particular contains examples of using the classes and methods described above.
+If this project gains interest and traction, I'll add a documentation webpage to help users get started quickly.  In the meantime, you can explore the lengthy documentation and explanations in the source code.  `qldpc/codes_test.py` contains examples of using the classes and methods described above.
 
 If you have any questions or requests, please open an issue!
 
@@ -48,7 +48,7 @@ If you use this software in your work, please cite with:
   howpublished = {\url{https://github.com/perlinm/qLDPC}},
 }
 ```
-This may require adding `\usepackage{url}` to your LaTeX header.  Alternatively, you can cite
+This may require adding `\usepackage{url}` to your LaTeX file header.  Alternatively, you can cite
 ```
 Michael A. Perlin. qLDPC. https://github.com/perlinm/qLDPC, 2023.
 ```
