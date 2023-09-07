@@ -48,7 +48,7 @@ If you use this software in your work, please cite with:
   howpublished = {\url{https://github.com/perlinm/qLDPC}},
 }
 ```
-This may require adding `\usepackage{url}` to your LaTeX source file.  Alternatively, you can cite
+This may require adding `\usepackage{url}` to your LaTeX header.  Alternatively, you can cite
 ```
 Michael A. Perlin. qLDPC. https://github.com/perlinm/qLDPC, 2023.
 ```
