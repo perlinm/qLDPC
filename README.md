@@ -6,11 +6,11 @@ This package contains tools for constructing and analyzing [quantum low density 
 
 This package requires Python>=3.10, and can be installed from PyPI with
 ```
-pip install -U qldpc
+pip install --user qldpc
 ```
 To install from source:
 ```
-git clone ...
+git clone https://github.com/perlinm/qLDPC.git
 cd qLDPC
 pip install -e .
 ```
@@ -45,10 +45,10 @@ If you use this software in your work, please cite with:
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/...}},
+  howpublished = {\url{https://github.com/perlinm/qLDPC}},
 }
 ```
 This may require adding `\usepackage{url}` to your LaTeX source file.  Alternatively, you can cite
 ```
-Michael A. Perlin. qLDPC. https://github.com/..., 2023.
+Michael A. Perlin. qLDPC. https://github.com/perlinm/qLDPC, 2023.
 ```
