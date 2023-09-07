@@ -1,6 +1,6 @@
 # qLDPC (PREVIEW)
 
-This repository contains tools for constructing and analyzing [quantum low density partity check (qLDPC) codes](https://errorcorrectionzoo.org/c/qldpc).
+This package contains tools for constructing and analyzing [quantum low density partity check (qLDPC) codes](https://errorcorrectionzoo.org/c/qldpc).
 
 ## Installation
 
@@ -41,7 +41,7 @@ If you use this software in your work, please cite with:
 ```
 @misc{perlin2023qldpc,
   author = {Perlin, Michael A.},
-  title = {q{LDPC}},
+  title = {{qLDPC}},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
