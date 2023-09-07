@@ -9,7 +9,6 @@ description = "Tools for constructing and analyzing quantum low density partity 
 license = "Apache-2.0"
 authors = ["Michael A. Perlin <mika.perlin@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.10"
 repository = "..."
 keywords = [
   "quantum computing",
@@ -26,6 +25,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
+python = ">=3.10"
 cvxpy = ">=1.3.2"
 ldpc = ">=0.1.50"
 networkx = ">=3.0"
