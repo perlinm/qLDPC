@@ -31,7 +31,7 @@ Notable features include:
 
 ## Questions and issues
 
-If this project gains interest and traction, I'll add a documentation webpage to help users get started quickly.  In the meantime, you can explore the lengthy documentation and explanations in the source code.  `qldpc/codes_test.py` contains examples of using the classes and methods described above.
+If this project gains interest and traction, I'll add a documentation webpage to help users get started quickly.  I am also working on a paper to present and explain these codes.  In the meantime, you can explore the documentation and explanations in the source code.  `qldpc/codes_test.py` contains examples of using the classes and methods described above.
 
 If you have any questions or requests, please open an issue!
 
