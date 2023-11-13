@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 
-import general_superstaq.check
+import checks_superstaq
 
 if __name__ == "__main__":
-    exit(general_superstaq.check.mypy_.run(*sys.argv[1:]))
+    exit(checks_superstaq.mypy_.run(*sys.argv[1:]))
