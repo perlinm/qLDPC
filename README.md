@@ -1,4 +1,4 @@
-# qLDPC
+# qLDPC \[DEPRACATED VERSION!  See the new main repository [here](https://github.com/Infleqtion/qLDPC).\]
 
 This package contains tools for constructing and analyzing [quantum low density partity check (qLDPC) codes](https://errorcorrectionzoo.org/c/qldpc).
 
