@@ -1,20 +1,21 @@
-# qLDPC (PREVIEW)
+# qLDPC
 
 This package contains tools for constructing and analyzing [quantum low density partity check (qLDPC) codes](https://errorcorrectionzoo.org/c/qldpc).
 
-## Installation
+## 📦 Installation
 
 This package requires Python>=3.10, and can be installed from PyPI with
 ```
 pip install qldpc
 ```
-To install from source:
+To install a local version from source:
 ```
-git clone https://github.com/perlinm/qLDPC.git
+git clone git@github.com:Infleqtion/qLDPC.git
 pip install -e qLDPC
 ```
+You can also `pip install -e 'qLDPC[dev]'` to additionally install some development tools.
 
-## Features
+## 🚀 Features
 
 Notable features include:
 - `abstract.py`: module for basic abstract algebra (groups, algebras, and representations thereof).
@@ -29,13 +30,13 @@ Notable features include:
 - `LPCode`: class for constructing [lifted product codes](https://errorcorrectionzoo.org/c/lifted_product) out of two protographs (i.e., matrices whose entries are elements of a group algebra).  See [arXiv:2012.04068](https://arxiv.org/abs/2012.04068) and [arXiv:2202.01702](https://arxiv.org/abs/2202.01702).
 - `QTCode`: class for constructing [quantum Tanner codes](https://errorcorrectionzoo.org/c/quantum_tanner) out of (a) two symmetric subsets `A` and `B` of a group `G`, and (b) two classical `BitCode`s with block lengths `|A|` and `|B|`.  See [arXiv:2202.13641](https://arxiv.org/abs/2202.13641) and [arXiv:2206.07571](https://arxiv.org/abs/2206.07571).
 
-## Questions and issues
+## 🤔 Questions and issues
 
-If this project gains interest and traction, I'll add a documentation webpage to help users get started quickly.  I am also working on a paper to present and explain this project.  In the meantime, you can explore the documentation and explanations in the source code.  `qldpc/codes_test.py` contains examples of using the classes and methods described above.
+If this project gains interest and traction, I'll add a documentation webpage and material to help users get started quickly.  I am also planning to write a paper that presents and explains this project.  In the meantime, you can explore the documentation and explanations in the source code.  `qldpc/codes_test.py` contains some examples of using the classes and methods described above.
 
-If you have any questions or requests, please open an issue!
+In the meantime, if you have any questions or requests, please open an issue!
 
-## Attribution
+## ⚓ Attribution
 
 If you use this software in your work, please cite with:
 ```
@@ -45,10 +46,10 @@ If you use this software in your work, please cite with:
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/perlinm/qLDPC}},
+  howpublished = {\url{https://github.com/Infleqtion/qLDPC}},
 }
 ```
 This may require adding `\usepackage{url}` to your LaTeX file header.  Alternatively, you can cite
 ```
-Michael A. Perlin. qLDPC. https://github.com/perlinm/qLDPC, 2023.
+Michael A. Perlin. qLDPC. https://github.com/Infleqtion/qLDPC, 2023.
 ```

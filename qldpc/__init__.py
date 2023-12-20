@@ -1,11 +1,17 @@
-import pkg_resources
+import importlib.metadata
 
-from . import abstract, codes
+from . import abstract, codes, decoder, objects
 
-__version__ = pkg_resources.get_distribution("qldpc").version
+decode = decoder.decode
+
+__version__ = importlib.metadata.version("qldpc")
 
 __all__ = [
     "__version__",
     "abstract",
+    "circuits",
     "codes",
+    "decode",
+    "decoder",
+    "objects",
 ]

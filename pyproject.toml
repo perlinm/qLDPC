@@ -4,12 +4,12 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "qLDPC"
-version = "0.0.3"
+version = "0.0.4"
 description = "Tools for constructing and analyzing quantum low density partity check (qLDPC) codes."
 license = "Apache-2.0"
 authors = ["Michael A. Perlin <mika.perlin@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/perlinm/qLDPC"
+repository = "https://github.com/Infleqtion/qLDPC"
 keywords = [
   "quantum computing",
   "quantum error correction",
@@ -34,7 +34,7 @@ networkx = ">=2.6.2"
 numpy = ">=1.22.0"
 sympy = ">=1.12"
 
-checks-superstaq = { version = ">=0.5.0", optional = true, extras = ["dev"] }
+checks-superstaq = { version = ">=0.5.0", optional = true }
 
 [tool.poetry.extras]
 dev = ["checks-superstaq"]
